@@ -1,0 +1,66 @@
+.form-control{
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.578);
+    
+}
+.form-control:focus{
+    box-shadow: unset;
+    outline: unset;
+    font-weight: 600;
+    border-bottom: 3px solid rgba(135, 207, 235, 0.721);
+    background-color: rgba(128, 128, 128, 0.237);
+}
+.iconSize{
+  
+    font-size: 1.5rem;
+}
+ 
+.form-control::placeholder{
+    color:black;
+    font-weight: 600;
+    text-align: start;
+}
+.form-control{
+    color:black;
+    font-weight: 600;
+    text-align: start;
+}
+.cardLoginBgImg{
+    background-image: url("../img/image/images\ \(7\).jpeg");
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.cardgroups{
+    
+    height: 70vh;
+    width: 100%;
+}
+.subheading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(135, 207, 235, 0.721);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.cardLogina{
+    position: relative;
+}
+.cardLogina::before{
+    content: "";
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110%;
+    /* filter: blur(5px); */
+    height: 110%;
+    background: linear-gradient(white,skyblue ,white);
+    box-shadow: 3px 3px 3px black;
+    z-index: -1;
+}

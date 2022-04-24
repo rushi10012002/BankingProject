@@ -1,0 +1,55 @@
+.rowMain{
+    height: 100vh;
+   
+    background: url('../img//image//photo-1501167786227-4cba60f6d58f.avif');
+    /* background: rgba(0, 0, 0, 0.7); */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.heading{
+    font-size: 8vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.subheading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.bgcolor{
+    background-color: rgba(135, 207, 235, 0.721);
+    overflow: hidden;
+}
+.rowMain2{
+    /* background-color: rgba(255, 242, 2, 0.447); */
+    background-color: rgba(135, 207, 235, 0.721);
+    overflow: hidden;
+}
+.rowMain3{
+    background-color: rgba(135, 207, 235, 0.721);
+    overflow: hidden;
+}
+.cardSecondRow{
+     
+    color: black;
+}
+.textColor{
+    color:rgb(78, 196, 243);
+    
+}
+.NavText{
+font-weight: bold;   
+}

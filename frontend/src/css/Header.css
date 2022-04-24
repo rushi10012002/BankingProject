@@ -1,0 +1,20 @@
+.headerBg{
+    background-color:rgba(135, 207, 235, 0.721);
+    color: black;
+    
+}
+.headerHover:hover{
+    border-bottom: 3px solid black;
+    transition: .2s ease-in-out all;
+}
+.list-group-item{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.list-group-item:hover{
+    background: linear-gradient(skyblue, white);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+ 
