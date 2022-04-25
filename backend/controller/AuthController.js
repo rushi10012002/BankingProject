@@ -118,6 +118,24 @@ try {
     })
 }
 }
+exports.SearchAllUserData=async(req,res)=>{
+try {
+   
+     const {input1}=req.body
+    const result=await user.find({$or:[{_id:input1},{name:input1}]}).select('_id name email Address image')
+    res.json({
+        success:true,
+        data:result,
+        message:"get all search data Successfully"
+    })
+} catch (error) {
+    res.json({
+        success:false,
+        // data:result,
+        message:"get all search data unSuccessfully"
+    })
+}
+}
 exports.AllUserDataById=async(req,res)=>{
 try {
    
